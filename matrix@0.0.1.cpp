@@ -22,14 +22,14 @@ int main() {
 		}
 	}
 
-	if (failure) {																			//проверка ввода матрицы 1
+	if (failure) {	
 		std::cout << "An error has occured while reading numbers from line" << std::endl;
 		return 0;
 	}
 
 	std::cin >> ch;
 
-	if ((ch != '+') && (ch != '-') && (ch != '*')) {										//проверка ввода символа
+	if ((ch != '+') && (ch != '-') && (ch != '*')) {
 		std::cout << "An error has occured while reading numbers from line" << std::endl;
 		return 0;
 	}
