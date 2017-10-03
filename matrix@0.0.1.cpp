@@ -5,7 +5,7 @@
 
 int main() {
 	int matrix_1[3][3], matrix_2[3][3], res[3][3];
-	bool failure;
+	bool failure = false;
 	char ch;
 
 	for (int i = 0; i < 3; i++) {
